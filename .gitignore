@@ -1,41 +1,24 @@
-# Compiled Lua sources
-luac.out
+# Ignore the Lua script(s) you want hidden
+src/sb.lua
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
+# (Other recommended ignores...)
+*.log
+*.tmp
+*.temp
+*.rbxl.autosave
+*.rbxm.autosave
+*.rbxl.bak
+*.rbxm.bak
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+node_modules/
+.vscode/
+*.code-workspace
+*.metadata
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+dist/
+build/
+bin/
